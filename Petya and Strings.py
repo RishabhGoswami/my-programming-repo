@@ -1,0 +1,10 @@
+    s=str(input())
+    b=str(input())
+    s=s.lower()
+    b=b.lower()
+    if(s==b):
+        print(0)
+    elif(s<b):
+        print(-1)
+    else:
+        print(1)
