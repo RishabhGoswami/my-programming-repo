@@ -1,0 +1,10 @@
+    a=str(input())
+    b=str(input())
+    c=str(int(a)+int(b))
+    c=c.replace('0',"")
+    a=a.replace("0",'')
+    b=b.replace('0',"")
+    if(int(a)+int(b)==int(c)):
+        print("YES")
+    else:
+        print("NO")
